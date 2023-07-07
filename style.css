@@ -1,0 +1,382 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background: url('Logo/bg.png');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+/* ============================================= */
+
+
+
+
+/* ========================   NAV BAR Start   =========================  */
+
+
+.nav_out_main {
+    /* border: 2px solid red; */
+    height: fit-content;
+
+}
+
+/* .nav_left_main {
+    border: 2px solid green;
+    height: 140px;
+    text-align: right;
+
+} */
+
+.nav_right_main {
+    /* border: 2px solid blue; */
+    height: fit-content;
+    margin-top: -10px;
+}
+
+/* ----------------------------- */
+.navbar-toggler-icon {
+    border: 1px solid brown;
+    border-radius: 4px;
+    color: brown;
+    background-color: white;
+}
+
+.logo {
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: -5px;
+    transition: all 3s;
+}
+
+.logo:hover {
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: -5px;
+    transform: rotate3d(0, 1, 0, 360deg);
+}
+
+/* main nav bar out div  */
+.navbar {
+    /* border: 2px solid magenta; */
+    border-radius: 30px;
+    height: fit-content;
+    margin-top: -7px;
+    /* background-color: red; */
+}
+
+.nav_bar_main_container {
+
+    /* border: 2px solid white; */
+    /* border-radius: 5px; */
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.nav_bar_logo_bar {
+    /* margin-top: 15px; */
+    margin-left: 2px;
+    /* border: 2px solid red; */
+    height: fit-content;
+    /* animation: rotateY 2s infinite linear; */
+}
+
+.nav_bar_title_bar {
+    margin-top: 15px;
+    margin-left: -10px;
+    /* border: 2px solid red; */
+    height: fit-content;
+}
+
+.list_main {
+    margin-top: 20px;
+    margin-left: 15x;
+    /* border: 2px solid green; */
+    height: fit-content;
+}
+
+.nav-item {
+    height: fit-content;
+    /* border: 2px solid goldenrod; */
+    border-radius: 3px;
+}
+
+/* -------------------------------------  */
+.title {
+    color: red;
+    text-shadow: 2px 2px 2px white;
+    font-size: 30px;
+    font-family: 'Fasthand', cursive;
+
+}
+
+.title:hover {
+    color: red;
+    text-shadow: 2px 2px 2px yellow;
+    font-size: 30px;
+    font-family: 'Fasthand', cursive;
+
+}
+
+.home-btn {
+
+    padding: 5px;
+    color: white;
+}
+
+.home-btn:hover {
+    border-bottom: 3px solid yellow;
+    padding: 5px;
+    color: white;
+}
+
+/* ========================   NAV BAR END   =========================  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================================== */
+.home_marquee_main {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+}
+
+
+.home_btn_main {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.mcu_btn_qs {
+    /* border: 2px solid yellow; */
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.mcu_btn {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.mcu_btn:hover {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dc_btn {
+    border: 2px solid cyan;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+
+.dc_btn:hover {
+    border: 2px solid cyan;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* ==================================================================  */
+
+.marvel_main {
+    margin-top: 30px;
+    background-color: maroon;
+    border: 1px solid yellow;
+    border-radius: 15px;
+    /* height: 600px; */
+}
+
+.dc_main {
+    margin-top: 30px;
+    background-color: maroon;
+    border: 1px solid yellow;
+    border-radius: 15px;
+    /* height: 600px; */
+}
+
+.about_main {
+    margin-top: 30px;
+    background-color: darkblue;
+    border: 1px solid yellow;
+    border-radius: 15px;
+    /* height: 200px; */
+    color: white;
+    /* font-size: 30px; */
+    padding: 20px;
+}
+
+.alert_main {
+    margin-top: 30px;
+    background-color: darkblue;
+    /* border: 1px solid yellow; */
+    border-radius: 15px;
+    /* height: 200px; */
+    color: white;
+    /* font-size: 30px; */
+    /* padding: 20px; */
+}
+
+.alert_heading_1 {
+    background-color: darkblue;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.alert_heading_2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.marvel_heading_1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.marvel_download_btn {
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.marvel_download_btn:hover {
+    background-color: darkblue;
+    border: 1px solid cyan;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+/* ===================================================================== */
+.footer_main {
+
+    background-color: black;
+    text-align: center;
+    margin-top: 1200px;
+    color: white;
+    padding: 10px;
+
+}
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 535px) {}
+
+@media only screen and (max-width: 480px) {
+    .title {
+        color: red;
+        text-shadow: 2px 2px 2px white;
+        font-size: 20px;
+        font-family: 'Fasthand', cursive;
+
+    }
+
+}
+
+@media only screen and (max-width: 412px) {
+    .title {
+        color: red;
+        text-shadow: 2px 2px 2px white;
+        font-size: 20px;
+        font-family: 'Fasthand', cursive;
+
+    }
+
+    .alert_heading_1 {
+        background-color: darkblue;
+        border-radius: 20px;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .alert_heading_2 {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+
